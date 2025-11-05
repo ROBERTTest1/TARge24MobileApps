@@ -71,3 +71,7 @@
                 Style="{StaticResource ResultLabelStyle}"
                 Margin="16,0"/>
         </Grid>
+
+    </Grid>
+
+</ContentPage>
