@@ -1,5 +1,4 @@
-﻿using SciCalc.Views;
-#if WINDOWS
+﻿#if WINDOWS
 using Microsoft.UI;
 using Microsoft.UI.Windowing;
 using Windows.Graphics;
@@ -30,7 +29,7 @@ namespace SciCalc
 
 #endif
 
-            MainPage = new CalculatorPage();
+            MainPage = new AppShell();
         }
 
 
