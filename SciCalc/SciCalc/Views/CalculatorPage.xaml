@@ -149,6 +149,49 @@
                 Text="⌫"
                 Command="{Binding BackspaceCommand}"/>
 
+        <!--Operator Buttons-->
+        <!--AC Button (spans 2 columns)-->
+        <Button Grid.Row="6" 
+                Grid.Column="3" 
+                Grid.ColumnSpan="2"
+                Style="{StaticResource OperatorButtonStyle}"
+                Text="AC"
+                Command="{Binding ResetCommand}"/>
+
+        <!--Row 2: × and ÷-->
+        <Button Grid.Row="7" 
+                Grid.Column="3"
+                Style="{StaticResource OperatorButtonStyle}"
+                Text="×"
+                Command="{Binding MathOperatorCommand}" CommandParameter="×"/>
+
+        <Button Grid.Row="7" 
+                Grid.Column="4"
+                Style="{StaticResource OperatorButtonStyle}"
+                Text="÷"
+                Command="{Binding MathOperatorCommand}" CommandParameter="÷"/>
+
+        <!--Row 3: + and - -->
+        <Button Grid.Row="8" 
+                Grid.Column="3"
+                Style="{StaticResource OperatorButtonStyle}"
+                Text="+"
+                Command="{Binding MathOperatorCommand}" CommandParameter="+"/>
+
+        <Button Grid.Row="8" 
+                Grid.Column="4"
+                Style="{StaticResource OperatorButtonStyle}"
+                Text="-"
+                Command="{Binding MathOperatorCommand}" CommandParameter="-"/>
+
+        <!--Equals Button (spans 2 columns)-->
+        <Button Grid.Row="9" 
+                Grid.Column="3" 
+                Grid.ColumnSpan="2"
+                Style="{StaticResource OperatorButtonStyle}"
+                Text="="
+                Command="{Binding CalculateCommand}"/>
+
     </Grid>
 
 </ContentPage>
