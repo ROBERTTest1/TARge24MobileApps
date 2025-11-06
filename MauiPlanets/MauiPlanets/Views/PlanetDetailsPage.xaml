@@ -47,7 +47,7 @@
                 
                 <!--Planet Image-->
                 <Image
-                    Source="{Binding HeroImage}"
+                    Source="{Binding HeroImage, Converter={StaticResource ImageSourceConverter}}"
                     Aspect="AspectFit"
                     HorizontalOptions="Fill"
                     HeightRequest="240"
@@ -104,12 +104,19 @@
 
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
-                            <Image
-                                    Source="{Binding .}"
+                            <Frame
+                                HasShadow="True"
+                                CornerRadius="12"
+                                WidthRequest="300"
+                                HeightRequest="200"
+                                Padding="0"
+                                Margin="0,8,0,8">
+                                <Image
+                                    Source="{Binding ., Converter={StaticResource ImageSourceConverter}}"
                                     Aspect="AspectFill"
-                                    HorizontalOptions="Center"
-                                    VerticalOptions="Center">
-                            </Image>
+                                    WidthRequest="300"
+                                    HeightRequest="200"/>
+                            </Frame>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
                 </CollectionView>

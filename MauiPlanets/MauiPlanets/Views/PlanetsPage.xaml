@@ -155,7 +155,7 @@
 
                                         <Image 
                                             Grid.Row="0"
-                                            Source="{Binding HeroImage}"
+                                            Source="{Binding HeroImage, Converter={StaticResource ImageSourceConverter}}"
                                             Rotation="-30"
                                             Aspect="AspectFill"
                                             VerticalOptions="Fill"
