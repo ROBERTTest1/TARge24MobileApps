@@ -73,7 +73,48 @@
         </Grid>
 
         <!--Scientific Operators-->
-        <!--Row 3: SIN, COS, TAN, LOG, EXP-->
+        <!--Row 1: MEAN, MOD, STD, VAR, FACT-->
+        <Button 
+            Grid.Row="2"
+            Grid.Column="0"
+            ZIndex="1"
+            Margin="6,10,6,4"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text="MEAN"/>
+
+        <Button 
+            Grid.Row="2"
+            Grid.Column="1"
+            ZIndex="1"
+            Margin="6,10,6,4"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text="MOD"/>
+
+        <Button 
+            Grid.Row="2"
+            Grid.Column="2"
+            ZIndex="1"
+            Margin="6,10,6,4"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text="STD"/>
+
+        <Button 
+            Grid.Row="2"
+            Grid.Column="3"
+            ZIndex="1"
+            Margin="6,10,6,4"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text="VAR"/>
+
+        <Button 
+            Grid.Row="2"
+            Grid.Column="4"
+            ZIndex="1"
+            Margin="6,10,6,4"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text="FACT"/>
+
+        <!--Row 2: SIN, COS, TAN, LOG, EXP-->
         <Button 
             Grid.Row="3"
             Grid.Column="0"
@@ -165,7 +206,53 @@
             Command="{Binding ScientificOperatorCommand}"
             CommandParameter="POW"/>
 
-        <!--Number and Basic Buttons-->
+        <!--Row 4-->
+        <Button 
+            Grid.Row="5"
+            Grid.Column="0"
+            ZIndex="1"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text="SQRT"
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="SQRT"/>
+
+        <Button 
+            Grid.Row="5"
+            Grid.Column="1"
+            ZIndex="1"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text="ABS"
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="ABS"/>
+
+        <Button 
+            Grid.Row="5"
+            Grid.Column="2"
+            ZIndex="1"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text=","
+            Command="{Binding RegionOperatorCommand}"
+            CommandParameter=","/>
+
+        <Button 
+            Grid.Row="5"
+            Grid.Column="3"
+            ZIndex="1"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text="("
+            Command="{Binding RegionOperatorCommand}"
+            CommandParameter="("/>
+
+        <Button 
+            Grid.Row="5"
+            Grid.Column="4"
+            ZIndex="1"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text=")"
+            Command="{Binding RegionOperatorCommand}"
+            CommandParameter=")"/>
+
+        <!--Number and Basic Operators-->
         <!--Row 1: 7, 8, 9-->
         <Button Grid.Row="6" 
                 Grid.Column="0"
