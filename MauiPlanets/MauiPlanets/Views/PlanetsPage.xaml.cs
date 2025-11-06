@@ -24,8 +24,7 @@ public partial class PlanetsPage : ContentPage
     {
         if (e.CurrentSelection?.FirstOrDefault() is Planet selectedPlanet && Navigation != null)
         {
-            // TODO: Navigate to PlanetDetailsPage when created
-            // await Navigation.PushAsync(new PlanetDetailsPage(selectedPlanet));
+            await Navigation.PushAsync(new PlanetDetailsPage(selectedPlanet));
         }
         
         // Clear selection to allow re-selection
