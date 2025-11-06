@@ -129,7 +129,7 @@
                     HorizontalTextAlignment="Center"
                     LineBreakMode="WordWrap"
                     Style="{StaticResource IntroPageHeaderStyle}"
-                    Text="Want to know and explain all things about the palnets in the solar system?"/>
+                    Text="Want to know and explain all things about the planets in the solar system?"/>
 
                 <Button 
                     HorizontalOptions="Center"
