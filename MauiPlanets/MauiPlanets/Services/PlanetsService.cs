@@ -70,9 +70,8 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#eb3333"),
                 Images = new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/78_mars_carousel_1.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/79_mars_carousel_2.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/80_mars_carousel_3.jpg"
+                    "https://spacegrant.org/wp-content/uploads/2020/03/Mars-surface.jpg",
+                    "https://space-facts.com/wp-content/uploads/mars-v2.jpg"
                 }
             },
             new()
