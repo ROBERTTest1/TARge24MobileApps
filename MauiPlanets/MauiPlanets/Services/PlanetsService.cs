@@ -175,6 +175,62 @@ namespace MauiPlanets.Services
                     "https://cdn.mos.cms.futurecdn.net/g2uHbkqw93YdbhCXDwQepX-970-80.jpg"
                 }
             },
+            new()
+            {
+                Name = "Gonggong",
+                Subtitle = "Dwarf planet candidate with a moon",
+                HeroImage = "gonggong.jpg",
+                Description = "Gonggong is a trans-Neptunian object and a strong candidate for dwarf planet status. " +
+                "It is approximately half the size of Pluto and is located in the scattered disc region of the outer solar system. " +
+                "Gonggong was discovered in 2007 and is named after a Chinese water god. " +
+                "It has one known moon named Xiangliu, discovered in 2016. " +
+                "Gonggong's surface is likely composed of water ice and other volatile materials, giving it a reddish appearance.",
+                AccentColorStart = Color.FromArgb("#2d1b2e"),
+                AccentColorEnd = Color.FromArgb("#8b5a8c"),
+                Images = new()
+                {
+                    "https://static.wikia.nocookie.net/thesolarsystem6361/images/3/3b/E7810368-F1A1-4A04-A9AD-A21F19CE3090.png/revision/latest/scale-to-width-down/1000?cb=20220819213643"
+                }
+            },
+            new()
+            {
+                Name = "Quaoar",
+                Subtitle = "Dwarf planet with rings and a moon",
+                HeroImage = "quaoar.webp",
+                Description = "Quaoar is a large trans-Neptunian object and a strong candidate for dwarf planet classification. " +
+                "It is slightly smaller than Gonggong and is located in the Kuiper Belt. " +
+                "Quaoar was discovered in 2002 and is named after the Tongva creator god. " +
+                "It has one known moon called Weywot, discovered in 2007. " +
+                "In 2023, astronomers discovered that Quaoar has a ring system, which is unusual for objects of its size. " +
+                "The rings are located at a distance that challenges current understanding of ring formation.",
+                AccentColorStart = Color.FromArgb("#1a1a2e"),
+                AccentColorEnd = Color.FromArgb("#4a4a6a"),
+                Images = new()
+                {
+                    "https://static.wikia.nocookie.net/thesolarsystem6361/images/0/0e/OrbitOf50000Quaoar.jpeg/revision/latest?cb=20230711221035",
+                    "https://static.wikia.nocookie.net/thesolarsystem6361/images/a/a9/QuaoarPaint.NET.png/revision/latest?cb=20180809074140"
+                }
+            },
+            new()
+            {
+                Name = "Orcus",
+                Subtitle = "Plutino dwarf planet candidate",
+                HeroImage = "orcus.jpg",
+                Description = "Orcus is a large trans-Neptunian object and a strong candidate for dwarf planet status. " +
+                "It is comparable in size to Ceres and is located in the Kuiper Belt. " +
+                "Orcus was discovered in 2004 and is named after the Etruscan god of the underworld. " +
+                "It has a large moon named Vanth, discovered in 2005. " +
+                "Orcus shares a similar orbital resonance with Neptune as Pluto does (2:3 resonance), making it a 'Plutino'. " +
+                "Its surface is likely composed of water ice and may have cryovolcanic features.",
+                AccentColorStart = Color.FromArgb("#0f0f1e"),
+                AccentColorEnd = Color.FromArgb("#3d3d5c"),
+                Images = new()
+                {
+                    "https://static.wikia.nocookie.net/thesolarsystem6361/images/2/20/Orcus2.webp/revision/latest?cb=20231120220619",
+                    "https://static.wikia.nocookie.net/thesolarsystem6361/images/6/6b/Orcus_3.webp/revision/latest?cb=20231120220645",
+                    "https://static.wikia.nocookie.net/thesolarsystem6361/images/c/c1/Orcus_Space_Engine.jpg/revision/latest/scale-to-width-down/1000?cb=20230429200924"
+                }
+            },
         };
 
 
